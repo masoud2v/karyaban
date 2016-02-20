@@ -36,12 +36,4 @@ Route::group(['middleware' => 'web'], function () {
 	Route::post('/cityinsert', 'HomeController@cityinsertpost');
 
 	Route::delete('job/{id}', 'JobsController@delete');
-//	Route::delete('job/{id}', function ($id)
-//	{
-//		return Redirect::to('/');
-//	});
-});
-
-Route::group(['middleware' => 'auth'], function() {
-
 });
