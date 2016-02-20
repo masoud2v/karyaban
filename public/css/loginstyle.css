@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-Medium-web.eot');
+ 
+	src: url('IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-Medium-web.ttf') format('ttf');  
+}
+
+.panel-heading {
+	font-family: IRANSans-web;
+	text-align: right;
+}
+
+.checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('IRANSans-Medium-web.eot');
+
+    src: url('IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('IRANSans-Medium-web.ttf') format('ttf');
+}
+
+.panel-heading {
+    font-family: IRANSans-web;
+    text-align: right;
+}
+
+.btn-default {
+    font-family: IRANSans-web;
+}
+
+.job-detail {
+    text-align: right;
+    padding: 20px 30px;
+    background-color: #FFFFFF !important;
+}
+
+.job-detail .col-md-2 {
+    text-align: left;
+}
+
+.row {
+    margin: 10px 0px 10px 0px;
+}
+h5 {
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+}
+
+.col-md-1 {
+    padding: 0;
+    margin-top: 3px;
+    text-align: right;
+}
+
+.showform {
+    margin-top: 20px;
+}

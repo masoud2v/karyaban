@@ -1,0 +1,380 @@
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('IRANSans-Medium-web.eot');
+
+    src: url('IRANSans-Medium-web.eot?#iefix') format('eot'), /* IE6–8 */ url('IRANSans-Medium-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('IRANSans-Medium-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('IRANSans-Medium-web.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'IRANSansRegular';
+    src: url('IRANSans-web.eot');
+
+    src: url('IRANSans-web.eot?#iefix') format('eot'), /* IE6–8 */ url('IRANSans-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('IRANSans-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('IRANSans-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'IRANSansUltraLight';
+    src: url('IRANSans-UltraLight-web.eot');
+
+    src: url('IRANSans-UltraLight-web.eot?#iefix') format('eot'), /* IE6–8 */ url('IRANSans-UltraLight-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/ url('IRANSans-UltraLight-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'entypo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
+    src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix') format('eot'),
+    url('http://weloveiconfonts.com/api/fonts/entypo/entypo.woff') format('woff'),
+    url('http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'),
+    url('http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
+}
+
+body {
+    font-family: 'IRANSansRegular';
+    background-color: #eeeff1;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1px;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #2e3436;
+    -webkit-text-fill-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.nav li {
+    font-family: IRANSans-web;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.nav li:hover {
+    background-color: #00cd00;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: IRANSans-web;
+    font-size: 15px;
+}
+
+.navbar-default {
+    border-bottom: solid 3px #00cd00;
+}
+
+.col-sm-8, .col-sm-2, .row {
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: #00cd00;
+    border-color: #00cd00;
+}
+
+.btn-primary:hover {
+    background-color: #00cd00;
+    border-color: #00cd00;
+    box-shadow: 0px 0px 5px #333;
+}
+
+.add {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.add-row {
+    margin-bottom: 15px;
+}
+
+.banner {
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    margin-bottom: 2px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.panel-body {
+    align-items: center;
+    margin: auto;
+    text-align: right;
+    border-radius: 0 0 5px 5px;
+}
+
+.panel-heading {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.panel-body .col-sm-8 {
+    margin: auto;
+    padding-right: 0px;
+    position: relative;
+}
+
+.col-sm-8 a {
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    text-decoration: none;
+}
+
+.col-sm-8 a:hover {
+    text-decoration: none;
+}
+
+.help-block {
+    float: right;
+}
+
+.input[type="text"] {
+    text-align: right;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #FFFFFF !important;
+}
+
+.form-control {
+    text-align: right;
+    background-color: #FFFFFF !important;
+}
+
+.android {
+    width: 100%;
+}
+
+.telegram_channel {
+    clear: both;
+}
+
+.enemad {
+    clear: both;
+}
+
+.job-title {
+    font-family: IRANSans-web;
+    font-weight: 200;
+    margin: 0;
+    padding: 5px;
+    -webkit-text-fill-color: #333;
+}
+
+.job-title:hover {
+    -webkit-text-fill-color: #00cd00;
+}
+
+.job-date {
+    font-family: IRANSans-web;
+    float: left;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.job-text {
+    margin-top: 5px;
+}
+
+.job-city {
+    font-family: IRANSans-web;
+    color: #00cd00;
+    font-size: 11px;
+    float: left;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.job-city:hover {
+    background-color: #00cd00;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.city-panel {
+    box-shadow: 0px 0px 10px #888888;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.city-panel-header {
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 15px;
+    text-align: right;
+    -webkit-text-fill-color: #FFFFFF;
+    border-bottom: solid 3px #00cd00;
+    font-weight: 600;
+    background-color: #333;
+}
+
+.city-panel-content {
+    text-align: right;
+    background-color: #FFFFFF;
+}
+
+ul {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    display: block;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #FFFFFF;
+    background-color: #00cd00;
+    cursor: pointer;
+}
+
+.city-panel-content a {
+    font-family: 'IRANSansRegular';
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 9px 15px 9px 50px;
+    color: #333;
+}
+
+.city-panel-content a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2e3436;
+    -webkit-text-fill-color: #fff;
+    border-top: solid 3px #008000;
+}
+
+.info, .about {
+    border-bottom: solid 2px #00cd00;
+    padding: 10px;
+}
+
+.infotitle {
+    font-family: IRANSans-web;
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.infoemail {
+    font-family: 'IRANSansUltraLight';
+    text-align: right;
+}
+
+.fa-envelope, .fa-phone {
+    margin-left: 5px;
+}
+
+.fa:hover {
+    -webkit-text-fill-color: #00cd00;
+}
+
+.infotel {
+    font-family: 'IRANSansUltraLight';
+    text-align: right;
+}
+
+.wrapper {
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+.introduce {
+    text-align: right;
+    height: 400px;
+    background-color: #00cd00;
+}
+
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    line-height: 40px;
+    font-family: 'entypo';
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social:hover {
+    position: relative;
+    top: -5px;
+}
+
+.fb {
+    background-color: #3B5998;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.tw {
+    background-color: #00aced;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.gp {
+    background-color: #DC4E41;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.in {
+    background-color: #125688;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.about {
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.about_title {
+    font-family: IRANSans-web;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-family: IRANSansRegular;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
