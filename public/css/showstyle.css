@@ -45,3 +45,11 @@ h5 {
 .showform {
     margin-top: 20px;
 }
+
+.introduce {
+    width: 600px;
+    margin: auto;
+    height: 330px;
+    text-align: right;
+    background: url("../image/karyaban.jpg") repeat 0 0;
+}

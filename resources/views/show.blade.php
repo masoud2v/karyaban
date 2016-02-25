@@ -40,7 +40,6 @@
                     </div>
                 @endif
                 <div class="introduce">
-                    <p>introduce section</p>
                 </div>
             </div>
         </div>

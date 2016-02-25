@@ -42,7 +42,7 @@
                         <div class="form-group{{ $errors->has('text') ? ' has-error' : '' }}">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                {{ Form::text('text', old('text'), array('class' => 'form-control')) }}
+                                {{ Form::textarea('text', old('text'), array('class' => 'form-control', 'size' => '30x5')) }}
 
                                 @if ($errors->has('text'))
                                     <span class="help-block">
